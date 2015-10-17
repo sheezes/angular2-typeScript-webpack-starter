@@ -1,0 +1,38 @@
+{
+  "name": "angular2-typescript-webpack-starter",
+  "version": "1.0.0",
+  "description": "Minimal Angular2 development environment which use typeScript.",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "reflect-metadata": "^0.1.2",
+    "angular2": "^2.0.0-alpha.44"
+  },
+  "devDependencies": {
+    "ts-loader": "^0.5.6",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0",
+    "typescript": "^1.6.2"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirkaufman/angular2-typeScript-webpack-starter.git"
+  },
+  "keywords": [
+    "angular2",
+    "angular",
+    "typeScript",
+    "webpack",
+    "angular2",
+    "starter"
+  ],
+  "author": "Nir Kaufman <nirkaufman.com> (nirkaufman.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nirkaufman/angular2-typeScript-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/nirkaufman/angular2-typeScript-webpack-starter#readme"
+}
