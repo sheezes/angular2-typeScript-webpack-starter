@@ -1,12 +1,14 @@
+var path = require('path');
+
 module.exports = {
 
   // set the context
-  context: __dirname + '/src',
+  context:path.join( __dirname, '/src'),
   entry: 'index.ts',
 
   // enable loading modules relatively (without the ../../ prefix)
   resolve: {
-    root: [__dirname + "/src"],
+    root: [path.join(__dirname, "/src")],
     extensions: ['','.webpack.js','.ts', '.js']
   },
 

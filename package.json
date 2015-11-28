@@ -1,16 +1,16 @@
 {
   "name": "angular2-typescript-webpack-starter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Minimal Angular2 development environment which use typeScript.",
   "main": "webpack.config.js",
   "dependencies": {
     "reflect-metadata": "0.1.2",
-    "angular2": "2.0.0-alpha.44"
+    "angular2": "2.0.0-alpha.46"
   },
   "devDependencies": {
     "ts-loader": "0.5.6",
-    "webpack": "1.12.2",
-    "webpack-dev-server": "1.12.0",
+    "webpack": "1.12.9",
+    "webpack-dev-server": "1.14.0",
     "typescript": "1.6.2"
   },
   "scripts": {
