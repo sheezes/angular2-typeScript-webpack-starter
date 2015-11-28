@@ -1,8 +1,6 @@
 var path = require('path');
 
 module.exports = {
-
-  // set the context
   context:path.join( __dirname, '/src'),
   entry: 'index.ts',
 
@@ -24,6 +22,7 @@ module.exports = {
 
   // webpack dev server configuration
   devServer: {
-    contentBase: "./src"
+    contentBase: "./src",
+    inline: true
   }
 };

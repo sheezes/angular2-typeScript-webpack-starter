@@ -4,8 +4,9 @@
   "description": "Minimal Angular2 development environment which use typeScript.",
   "main": "webpack.config.js",
   "dependencies": {
+    "angular2": "2.0.0-alpha.46",
     "reflect-metadata": "0.1.2",
-    "angular2": "2.0.0-alpha.46"
+    "zone.js": "^0.5.8"
   },
   "devDependencies": {
     "ts-loader": "0.7.2",
@@ -15,7 +16,7 @@
   },
   "scripts": {
     "prestart": "npm install",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --hot"
   },
   "repository": {
     "type": "git",
