@@ -4,18 +4,18 @@
   "description": "Minimal Angular2 development environment which use typeScript.",
   "main": "webpack.config.js",
   "dependencies": {
-    "angular2": "2.0.0-beta.0",
-    "es6-shim": "0.33.13",
-    "reflect-metadata": "0.1.2",
-    "rxjs": "5.0.0-beta.0",
+    "angular2": "2.0.0-beta.1",
+    "es6-shim": "0.34.2",
+    "reflect-metadata": "0.1.3",
+    "rxjs": "5.0.0-beta.1",
     "zone.js": "0.5.10"
   },
   "devDependencies": {
     "expose-loader": "0.7.1",
-    "ts-loader": "0.7.2",
+    "ts-loader": "0.8.0",
     "typescript": "1.7.5",
-    "webpack": "1.12.9",
-    "webpack-dev-server": "1.14.0"
+    "webpack": "1.12.12",
+    "webpack-dev-server": "1.14.1"
   },
   "scripts": {
     "prestart": "npm install",
