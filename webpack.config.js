@@ -2,7 +2,7 @@ var path = require('path');
 
 module.exports = {
   context:path.join( __dirname, '/src'),
-  entry: 'index.ts',
+  entry: 'boot.ts',
 
   // enable loading modules relatively (without the ../../ prefix)
   resolve: {
